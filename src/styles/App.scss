@@ -1,0 +1,225 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+%flex {
+    display: flex;
+    align-items: center;
+}
+
+%width {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+$primary-color: #4ea2e3;
+$text-color: #767676;
+
+.page-wrap {
+    height: 100vh;
+}
+
+.header-wrap {
+    @extend %flex;
+    @extend %width;
+    justify-content: space-between;
+    color: $primary-color;
+    height: 10vh;
+}
+
+.logo-wrap {
+    @extend %flex;
+    color: $primary-color;
+
+    .logo {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 28.8px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+.nav-wrap {
+    @extend %flex;
+    justify-content: space-between;
+
+    li {
+        font-size: 17.6px;
+        list-style: none;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+}
+
+.main {
+    @extend %width;
+    @extend %flex;
+    flex-direction: column;
+
+    .main_picture {
+        width: 50vw;
+        height: 70vh;
+    }
+}
+
+
+.link-wrap {
+    @extend %flex;
+    height: 19vh;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.appStore-img,
+.googlePlay-img {
+    height: 10vh;
+}
+
+.policy-wrap {
+    color: $text-color;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+
+    p {
+        margin: 0;
+        font-weight: 300;
+        font-size: 17.6px;
+        line-height: 22.88px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .policy-text {
+        margin-bottom: 70px;
+    }
+
+    .policy-text1 {
+        margin-bottom: 30px;
+    }
+}
+
+.policy-title {
+    font-weight: 700;
+    font-size: 35.2px;
+    line-height: 42.24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.policy-date {
+    font-weight: 300;
+    font-size: 17.6px;
+    font-style: italic;
+    line-height: 22.88px;
+    font-family: "Roboto", sans-serif;
+    color: #a0a0a0;
+}
+
+.policy-subtitle,
+.policy-contact {
+    font-weight: 700;
+    font-size: 17.6px;
+    line-height: 22.88px;
+}
+
+.policy-contact {
+    color: $primary-color;
+}
+
+.policy-email {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+form {
+    @extend %flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+%inputcontact {
+    border: 1px solid #767676;
+    margin-bottom: 16px;
+    font-size: 14.4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 15px 8px;
+}
+
+.contact-email {
+    width: 610px;
+    @extend %inputcontact;
+}
+
+.contact-message {
+    width: 610px;
+    height: 155px;
+    @extend %inputcontact;
+}
+
+.contact-email:focus,
+.contact-email:hover,
+.contact-message:focus,
+.contact-message:hover {
+    border: 1px solid $primary-color;
+}
+
+.contact-button {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: #ffffff;
+    padding: 16px 32px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 14.4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 14.4px;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+    color: #ffffff;
+    background-color: #1f7dc5;
+    border-color: #1f7dc5;
+}
+
+.icon-bar {
+    display: none;
+}
+
+.mobnav {
+    display: none;
+    padding-top: 24px;
+    position: fixed;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+}

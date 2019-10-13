@@ -1,0 +1,364 @@
+@media only screen and (max-width: 1200px) {
+
+    .header-wrap,
+    main {
+        width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    main,
+    .main {
+        width: 100%;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .main .main_picture {
+        width: 70vw;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .main .main_picture {
+        width: 65vw;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 12vh;
+    }
+
+    .link-wrap {
+        height: 27vh;
+        justify-content: space-between;
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    .main .main_picture {
+        width: 50vw;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .main .main_picture {
+        width: 60vw;
+        height: 70vh;
+    }
+
+    form {
+        margin-top: 11px;
+    }
+
+    .header-wrap {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main .main_picture {
+        height: 35vh;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 8vh;
+    }
+
+    .link-wrap {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-bar {
+        display: block;
+        font-size: 40px;
+    }
+
+    .nav-wrap {
+        display: none;
+    }
+
+    .main .main_picture {
+        height: 45vw;
+    }
+
+    .icon-close {
+        font-size: 30px;
+        margin-left: 15px;
+        outline: none;
+        border: 1px solid;
+    }
+
+    .mobnav-wrap {
+        padding: 0 30px;
+
+        li {
+            list-style: none;
+            font-size: 24px;
+            line-height: 29px;
+            margin: 30px 0;
+            text-align: center;
+        }
+    }
+
+    @-webkit-keyframes slideInRight {
+        from {
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            visibility: visible;
+        }
+
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    @keyframes slideInRight {
+        from {
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            visibility: visible;
+        }
+
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .slideInRight {
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight;
+        display: block;
+        animation-duration: 1s;
+    }
+
+    .header-wrap {
+        margin-bottom: 100px;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .page-wrap {
+        height: 97vh;
+    }
+
+    .header-wrap {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .main {
+        margin-top: 10px;
+    }
+
+    .main .main_picture {
+        height: 30vw;
+        width: 60vw;
+        margin-bottom: 10px;
+    }
+
+    .link-wrap {
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 14vh;
+    }
+
+    .contact-message {
+        height: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 736px) {
+    .link-wrap {
+        height: 27vh;
+    }
+}
+
+@media only screen and (max-width: 732px) {
+    .link-wrap {
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .header-wrap,
+    main {
+        width: 98vw;
+    }
+
+    .policy-wrap {
+        width: 550px;
+    }
+
+    .contact-email,
+    .contact-message {
+        width: 360px;
+    }
+
+    .contact-message {
+        height: 100px;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 15vh;
+    }
+
+    .header-wrap {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-wrap {
+        width: 94vw;
+    }
+
+    .logo-wrap .logo {
+        margin-right: 5px;
+    }
+
+    .logo-wrap h1 {
+        font-size: 18px;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .main .main_picture {
+        height: 36vh;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 8vh;
+    }
+
+    .link-wrap {
+        width: 90vw;
+    }
+}
+
+
+@media only screen and (max-width: 568px) {
+    .header-wrap {
+        margin-top: 10px;
+    }
+
+    .main {
+        margin-top: 10px;
+    }
+
+    .main .main_picture {
+        height: 50vh;
+        width: 55vw;
+        margin-bottom: 10px;
+    }
+
+    .link-wrap {
+        width: 60vw;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 14vh;
+    }
+
+    .policy-wrap {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    main {
+        width: 100vw;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+
+    .link-wrap {
+        width: 90vw;
+    }
+
+    .appStore-img,
+    .googlePlay-img {
+        height: 8vh;
+    }
+
+    .main .main_picture {
+        height: 26vh;
+    }
+
+    .nav-wrap li {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .policy-wrap {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .nav-wrap li {
+        font-size: 13px;
+    }
+
+    .main .main_picture {
+        height: 23vh;
+    }
+
+    .contact-email,
+    .contact-message {
+        width: 310px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .policy-wrap {
+        width: 315px;
+    }
+
+    .policy-title {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .policy-wrap {
+        width: 300px;
+    }
+
+    .contact-email,
+    .contact-message {
+        width: 285px;
+    }
+}
