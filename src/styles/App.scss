@@ -4,6 +4,11 @@ body {
     padding: 0;
     outline: none;
     font-family: "Roboto", sans-serif;
+    overflow-y: scroll;
+}
+
+html {
+    overflow-y: hidden;
 }
 
 %flex {
@@ -64,11 +69,16 @@ $text-color: #767676;
 .main {
     @extend %width;
     @extend %flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 90vh;
+
+    .main-wrap {
+        margin: auto;
+    }
 
     .main_picture {
         width: 50vw;
-        height: 70vh;
+
     }
 }
 
